@@ -1,6 +1,4 @@
-import { NextPage } from 'next';
-
-const Layout: NextPage = ({ children }) => {
+const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <main>{children}</main>
